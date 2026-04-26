@@ -1,0 +1,39 @@
+﻿var testimonials = new List<Testimonial>
+{
+    new Testimonial { 
+        NameSurname = "Selin Yılmaz", 
+        Title = "Gurme & Yemek Yazarı", 
+        Comment = "Yummy'nin imza tabağı olan kuzu incik tek kelimeyle kusursuzdu. Etin yumuşaklığı ve sosun dengesi gerçek bir şef dokunuşunu hissettiriyor.", 
+        ImageUrl = "/Yummy-v1.0.0/assets/img/testimonials/testimonials-1.jpg" 
+    },
+    new Testimonial { 
+        NameSurname = "Mert Demir", 
+        Title = "Yazılım Mühendisi", 
+        Comment = "İş yemekleri için tek tercihimiz. Hem ortamın sessizliği hem de servis ekibinin profesyonelliği bizi her seferinde çok memnun bırakıyor.", 
+        ImageUrl = "/Yummy-v1.0.0/assets/img/testimonials/testimonials-2.jpg" 
+    },
+    new Testimonial { 
+        NameSurname = "Ayşe Aksoy", 
+        Title = "İç Mimar", 
+        Comment = "Restoranın iç tasarımı ve aydınlatması yemek keyfini iki katına çıkarıyor. Modern ama sıcak bir atmosfer arayanlar için şehirdeki en iyi durak.", 
+        ImageUrl = "/Yummy-v1.0.0/assets/img/testimonials/testimonials-3.jpg" 
+    },
+    new Testimonial { 
+        NameSurname = "Caner Özkan", 
+        Title = "Gastronomi Girişimcisi", 
+        Comment = "Hafta sonu kahvaltısı için gittik ve ürünlerin tazeliğine hayran kaldık. Özellikle yerel üreticilerden seçilen peynir tabağı favorimiz oldu.", 
+        ImageUrl = "/Yummy-v1.0.0/assets/img/testimonials/testimonials-4.jpg" 
+    },
+    new Testimonial { 
+        NameSurname = "Zeynep Kaya", 
+        Title = "Lifestyle Blogger", 
+        Comment = "Tatlı menüsündeki çeşitlilik ve sunumlar tam anlamıyla bir görsel şölen. Sosyal medya paylaşımlarım için harika kareler yakaladım, lezzet efsane!", 
+        ImageUrl = "/Yummy-v1.0.0/assets/img/testimonials/testimonials-5.jpg" 
+    },
+    new Testimonial { 
+        NameSurname = "Murat Aras", 
+        Title = "Kurumsal Eğitmen", 
+        Comment = "Şehrin gürültüsünden uzak, nezih bir akşam yemeği için ideal bir mekan. Şarap menüsü ve eşleşmeleri oldukça başarılı, kesinlikle tavsiye ederim.", 
+        ImageUrl = "/Yummy-v1.0.0/assets/img/testimonials/testimonials-6.jpg" 
+    }
+};
