@@ -1,0 +1,48 @@
+﻿@model List<ApiProjeKampi.WebUI.DTOS.ServiceDto.ResultServiceDto>
+
+
+<section id="why-us" class="why-us section light-background">
+
+    <div class="container">
+
+        <div class="row gy-4">
+
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="why-box">
+                    <h3>Neden Yummy ?</h3>
+                    <p>
+                        Geleneksel yemek kültürünü modern teknolojiyle harmanlayan Yummy, mezuniyet projemizin temel taşı olarak yenilikçi bir yaklaşım sergilemektedir. 
+                        Amacımız, karmaşık veritabanı işlemlerini ve dinamik içerik yönetimini, son kullanıcının en basit ve en keyifli şekilde deneyimleyebileceği bir
+                        yapıya dönüştürmektir. Projemiz boyunca geliştirdiğimiz View Component mimarisi ve modüler kod yapısı, sistemin sürdürülebilirliğini artırırken
+                        kullanıcılara görsel bir şölen sunmaktadır. Her bir kod satırı, mutfağımızdaki bir malzeme gibi özenle seçilmiş ve en yüksek verimliliği sunmak
+                        üzere optimize edilmiştir. Kaliteye olan tutkumuz ve sürekli gelişim hedefimizle, dijital gastronomide yeni standartlar belirlemek için yola çıktık
+                        ve bu yolda kararlılıkla ilerliyoruz.
+                    </p>
+                    <div class="text-center">
+                        <a href="#contact" class="more-btn"><span>Rezervasyon Yapın</span> <i class="bi bi-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div><!-- End Why Box -->
+
+            <div class="col-lg-8 d-flex align-items-stretch">
+                <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+
+                    @foreach(var item in Model){
+                        <div class="col-xl-4">
+                            <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                                <i class="@item.IconUrl"></i>
+                                <h4>@item.Title</h4>
+                                <p>@item.Description</p>
+                        </div>
+
+                        </div>
+                    }
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
