@@ -1,6 +1,6 @@
 # 🍽️ Api Proje Kampı - Restoran Rezervasyon Sistemi
 
-Bu proje, Murat Yücedağ'ın "Api Proje Kampı" eğitim serisi takip edilerek geliştirilen, sıfırdan API mantığını kavramayı ve bir tüketici (UI) uygulamasıyla entegrasyonunu amaçlayan bir web uygulamasıdır.
+Bu proje, sıfırdan API mantığını kavramayı ve bir tüketici (UI) uygulamasıyla entegrasyonunu amaçlayan bir web uygulamasıdır.
 
 ## 📌 Proje Hakkında
 Proje, bir restoranın rezervasyon süreçlerini, menü yönetimini ve müşteri geri bildirimlerini dijital ortamda yönetmek için tasarlanmıştır. Temel odak noktası, katmanlı mimari karmaşasına girmeden **API çalışma prensiplerini**, **HTTP metotlarını** ve **verilerin UI tarafında tüketilmesini** öğrenmektir.
